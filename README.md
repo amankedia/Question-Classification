@@ -13,3 +13,6 @@ Classifying questions from UIUC's CogComp QC Dataset
 # Results
 * 87.8% accuracy on Coarse classes.
 * 80.7% accuracy on Fine classes.
+
+# References
+https://nlp.stanford.edu/courses/cs224n/2010/reports/olalerew.pdf
