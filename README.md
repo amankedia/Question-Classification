@@ -11,8 +11,16 @@ Classifying questions from UIUC's CogComp QC Dataset
 5. Using a Linear SVM model on the engineered features.
 
 # Results
-* 87.8% accuracy on Coarse classes.
-* 80.7% accuracy on Fine classes.
+* 88.2% accuracy on Coarse classes.
+* 81.6% accuracy on Fine classes.
+
+| Variations in Features Used  | Coarse Set Accuracy | Coarse:Fine Set Accuracy | Fine Set Accuracy |
+| ------------- | ------------- | ------------- | ------------- |
+| Named Entity Recognition + Lemmas + POS Tags + Syntactic Dependency + Shape | 87.8 | 80.4 | 80.8 |
+| Named Entity Recognition + Lemmas + POS Tags + Syntactic Dependency | 87.2 | 80.6 | 81.4 |
+| Named Entity Recognition + Lemmas + POS Tags | **88.2** | **81.4** | 81.2 |
+| Named Entity Recognition + Lemmas | 86.4 | 80.6 | **81.6** |
+| Lemmas | 86.2 | 80.4 | **81.6** |
 
 # References
 https://nlp.stanford.edu/courses/cs224n/2010/reports/olalerew.pdf
